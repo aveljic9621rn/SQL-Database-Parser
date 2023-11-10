@@ -1,0 +1,52 @@
+{
+    "TABLE_OR_COLUMN_DOES_NOT_EXIST":{
+        "name": "Tabela ili kolona ne postoji",
+        "description": "%s ne postoji u bazi.",
+        "recommendation": "Moguće je da je napravljena slovna greška. "
+    },
+    "NON_FOREIGN_KEY_MERGE":{
+        "name": "Spajanje tabela uz pomoć stranog ključa",
+        "description": "%s",
+        "recommendation": "%s"
+    },
+    "STATEMENT_ORDER_WRONG":{
+        "name": "Neispravan redosled iskaza",
+        "description": "Ključne reči nisu pravilno raspoređene.",
+        "recommendation": "Pravilan redosled iskaza je SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY. "
+    },
+    "ALIAS_NO_QUOTES":{
+        "name": "Nepravilno imenovanje alijasa",
+        "description": "Alijas %s nije pravilan naziv za alijas.",
+        "recommendation": "Alijas od više reči mora da bude okružen navodnicima. "
+    },
+    "AGGREGATION_NO_GROUP_BY":{
+        "name": "GROUP BY nije prisutan",
+        "description": "Funkcija agregacije %s zahteva GROUP BY iskaz.",
+        "recommendation": "Dodajte taj iskaz u upit, ili izbacite tu funkciju."
+    },
+    "AGGREGATION_IN_WHERE":{
+        "name": "Agregacija u WHERE",
+        "description": "Funkcije agregacije ne mogu da se nalaze u iskazu WHERE ($where).",
+        "recommendation": "Dodajte HAVING iskaz sa potrebnim funkcijama agregacije. "
+    },
+    "INSERT_WRONG_COLUMNS":{
+        "name": "Format se ne poklapa",
+        "description": "%s",
+        "recommendation": "%s"
+    },
+    "INVALID_ARGUMENT_TYPE":{
+        "name": "Nepravilan tip argumenata funkcije",
+        "description": "Funkcija $tabela prima argumente u obliku $prima, a dati su joj $dati.",
+        "recommendation": "Možda je potrebna neka konverzija. "
+    },
+    "UNUSED_VARIABLE":{
+        "name": "Neiskorišćena promenljiva",
+        "description": "Promenljiva %s postoji, ali nikada nije korišćena.",
+        "recommendation": "Možete je bezbedno ukloniti. "
+    },
+    "PART_OF_QUERY_MISSING":{
+        "name": "Izostavljen deo upita",
+        "description": "Fali kljucna rec %s. ",
+        "recommendation": "Dodajte taj deo upita. "
+    }
+}
